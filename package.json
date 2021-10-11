@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+
+    "test":"start-server-and-test dev 3000 e2e",
+    "e2e": "cypress open"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-search-autocomplete": "^5.4.2",
+    "react-window": "^1.8.6",
+    "swr": "^1.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "cypress": "^8.5.0",
+    "cypress-react-selector": "^2.3.11",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
